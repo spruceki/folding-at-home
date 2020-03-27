@@ -35,7 +35,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - { role: peteroyle.folding-at-home, user: spruce^ki, state: present }
+        - { role: peteroyle.folding_at_home, user: spruce^ki, state: present }
 
 License
 -------
