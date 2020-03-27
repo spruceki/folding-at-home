@@ -1,6 +1,11 @@
 ---
 # tasks file for folding-at-home
 
+- name: Create config directory
+  file: dest=/etc/fahclient state=directory
+  when: state == 'present'
+  become: true
+
 - name: Populate config.xml
   template: src=config.xml dest=/etc/fahclient/config.xml
   when: state == 'present'
