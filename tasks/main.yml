@@ -1,6 +1,12 @@
 ---
 # tasks file for folding-at-home
 
+- name: Populate config.xml
+  template: src=config.xml dest=/etc/fahclient/config.xml
+  when: state == 'present'
+  become: true
+  notify: restart folding-at-home
+
 - name: Install for CentOS
   include: centos.yml
   when: ansible_distribution == 'CentOS' or ansible_distribution == 'Red Hat Enterprise Linux'
@@ -14,8 +20,3 @@
   when: state == 'absent'
   become: true
 
-- name: Populate config.xml
-  template: src=config.xml dest=/etc/fahclient/config.xml
-  when: state == 'present'
-  become: true
-  notify: restart folding-at-home

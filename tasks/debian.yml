@@ -3,6 +3,7 @@
 
 - name: Download client package (Debian)
   get_url: url=https://download.foldingathome.org/releases/public/release/fahclient/debian-testing-64bit/v7.4/fahclient_7.4.4_amd64.deb dest=/tmp/folding-at-home.deb validate_certs=False
+  when: state == 'present'
 
 - name: Install package (Debian)
   apt: deb=/tmp/folding-at-home.deb state=present
