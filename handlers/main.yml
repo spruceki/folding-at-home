@@ -1,0 +1,13 @@
+---
+# handlers file for folding-at-home
+- name: start folding-at-home
+  service: name=FAHClient state=started
+  become: true
+
+- name: restart folding-at-home
+  service: name=FAHClient state=restarted
+  become: true
+
+- name: stop folding-at-home
+  service: name=FAHClient state=stop
+  become: true

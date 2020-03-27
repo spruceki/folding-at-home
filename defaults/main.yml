@@ -1,0 +1,6 @@
+---
+# defaults file for folding-at-home
+gpu: false
+power: light
+user: anonymous
+state: present

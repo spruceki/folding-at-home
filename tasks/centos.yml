@@ -1,0 +1,11 @@
+---
+# tasks file for folding-at-home
+
+- name: Download client package (CentOS)
+  get_url: url=https://download.foldingathome.org/releases/public/release/fahclient/centos-5.3-64bit/v7.4/fahclient-7.4.4-1.x86_64.rpm dest=/tmp/folding-at-home.rpm validate_certs=False
+
+- name: Install package (CentOS)
+  package: name=/tmp/folding-at-home.rpm state=present
+  when: state == 'present'
+  become: true
+  notify: start folding-at-home
