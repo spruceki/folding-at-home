@@ -12,8 +12,8 @@ purpose - there are even speeling mistakes in the readme for crying out loud!
 Requirements
 ------------
 
-Currently only targets CentOS and Debian servers. Pull requests for other OSs
-would be welcomed!
+Currently only targets recent versions of CentOS/RHEL and Debian/Ubuntu. Pull
+requests for other OSs would be welcomed!
 
 Role Variables
 --------------
