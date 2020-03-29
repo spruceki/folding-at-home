@@ -20,10 +20,11 @@ Role Variables
 
 The following defaults are set and are used in config.xml:
 
-gpu: false
-power: light
-user: anonymous
-state: present (use 'absent' to stop F@h and uninstall the RPM)
+
+* gpu: false
+* power: light
+* user: anonymous
+* state: present (use 'absent' to stop F@h and uninstall the RPM)
 
 Dependencies
 ------------
