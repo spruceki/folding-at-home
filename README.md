@@ -1,5 +1,5 @@
-Role Name
-=========
+Folding At Home
+===============
 
 This is a very basic role to help get a simple instance of the Folding@home
 client onto a bunch of servers. We're using it at [Spruce^ki](https://spruce.ki)
