@@ -2,5 +2,7 @@
 # defaults file for folding-at-home
 gpu: false
 power: light
-user: anonymous
+user: ansible.spruce.ki
+# 257758 is team "spruce.ki"
+team: 257758
 state: present

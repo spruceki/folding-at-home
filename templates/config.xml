@@ -8,6 +8,9 @@
   <!-- User Information -->
   <user v='{{ user }}'/>
 
+  <!-- The team ID -->
+  <team v='{{ team }}'/>
+
   <!-- Folding Slots -->
   <slot id='0' type='CPU'/>
 </config>
