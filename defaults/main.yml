@@ -3,7 +3,8 @@
 gpu: false
 power: light
 user: ansible.spruce.ki
-passkey: 1385yourpasskeyhere5924
+# your optional passkey
+passkey:
 # 257758 is team "spruce.ki"
 team: 257758
 state: present

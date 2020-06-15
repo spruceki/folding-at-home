@@ -7,7 +7,9 @@
 
   <!-- User Information -->
   <user v='{{ user }}'/>
+{% if passkey %}
   <passkey v='{{ passkey }}'/>
+{% endif %}
 
   <!-- The team ID -->
   <team v='{{ team }}'/>
