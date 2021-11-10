@@ -7,7 +7,7 @@ to donate spare processing power of our staging infrastructure.
 
 Please please please do not use this role in production, no matter how much you
 want to put those powerful servers to good use! It's not guaranteed fit for
-purpose - there are even speeling mistakes in the readme for crying out loud!
+purpose - there are even speeling mistakes in the readme.
 Also it will probably send your monitoring/alerting into meltdown.
 
 Requirements
@@ -65,4 +65,4 @@ Author Information
 
 [Spruce^ki](https://spruce.ki) develops a full-featured, cloud-based
 telecommunications platform used by many Australian-based telcos. Visit
-[https://www.fyitelcoworks.com.au] to see it in action.
+[https://www.telcoworks.com.au] to see it in action.
